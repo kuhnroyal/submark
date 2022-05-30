@@ -54,7 +54,7 @@ runs:
   using: composite
   steps:
   - id: setup
-    uses: ${{github.action_path}}/setup/
+    uses: setup
     with:
       submark-version: 0.3.*
       add-to-path: false
